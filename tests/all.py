@@ -11,38 +11,38 @@ logging.basicConfig(
 
 import unittest
 
-from tests.unit.test_template_basic import TestTemplateBasic
-from tests.unit.test_template_complex import TestTemplateComplex
-from tests.unit.test_template_extends import TestTemplateExtends
-from tests.unit.test_template_for import TestTemplateFor
-from tests.unit.test_template_if import TestTemplateIf
-from tests.unit.test_template_include import TestTemplateInclude
-from tests.unit.test_template_loader import TestTemplateLoader
-from tests.unit.test_template_using import TestTemplateUsing
+from tests.test_template_basic import TestTemplateBasic
+from tests.test_template_complex import TestTemplateComplex
+from tests.test_template_extends import TestTemplateExtends
+from tests.test_template_for import TestTemplateFor
+from tests.test_template_if import TestTemplateIf
+from tests.test_template_include import TestTemplateInclude
+from tests.test_template_loader import TestTemplateLoader
+from tests.test_template_using import TestTemplateUsing
 
-from tests.unit.test_form import TestForm
-from tests.unit.test_form_button import TestFormButton
-from tests.unit.test_form_checkbox import TestFormCheckbox
-from tests.unit.test_form_color import TestFormColor
-from tests.unit.test_form_date import TestFormDate
-from tests.unit.test_form_datetime import TestFormDatetime
-from tests.unit.test_form_email import TestFormEmail
-from tests.unit.test_form_file import TestFormFile
-from tests.unit.test_form_hidden import TestFormHidden
-from tests.unit.test_form_label import TestFormLabel
-from tests.unit.test_form_month import TestFormMonth
-from tests.unit.test_form_number import TestFormNumber
-from tests.unit.test_form_password import TestFormPassword
-from tests.unit.test_form_radio import TestFormRadio
-from tests.unit.test_form_range import TestFormRange
-from tests.unit.test_form_search import TestFormSearch
-from tests.unit.test_form_submit import TestFormSubmit
-from tests.unit.test_form_tel import TestFormTel
-from tests.unit.test_form_text import TestFormText
-from tests.unit.test_form_textarea import TestFormTextarea
-from tests.unit.test_form_time import TestFormTime
-from tests.unit.test_form_url import TestFormUrl
-from tests.unit.test_form_week import TestFormWeek
+from tests.test_form import TestForm
+from tests.test_form_button import TestFormButton
+from tests.test_form_checkbox import TestFormCheckbox
+from tests.test_form_color import TestFormColor
+from tests.test_form_date import TestFormDate
+from tests.test_form_datetime import TestFormDatetime
+from tests.test_form_email import TestFormEmail
+from tests.test_form_file import TestFormFile
+from tests.test_form_hidden import TestFormHidden
+from tests.test_form_label import TestFormLabel
+from tests.test_form_month import TestFormMonth
+from tests.test_form_number import TestFormNumber
+from tests.test_form_password import TestFormPassword
+from tests.test_form_radio import TestFormRadio
+from tests.test_form_range import TestFormRange
+from tests.test_form_search import TestFormSearch
+from tests.test_form_submit import TestFormSubmit
+from tests.test_form_tel import TestFormTel
+from tests.test_form_text import TestFormText
+from tests.test_form_textarea import TestFormTextarea
+from tests.test_form_time import TestFormTime
+from tests.test_form_url import TestFormUrl
+from tests.test_form_week import TestFormWeek
 
 
 # template unit tests

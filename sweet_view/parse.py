@@ -1,5 +1,5 @@
 #coding: utf8
-from sweet.template.nodes import Text, Expression, Comment, If, EndIf, Elif, Else, For, EndFor,\
+from sweet_view.nodes import Text, Expression, Comment, If, EndIf, Elif, Else, For, EndFor,\
     Include, Extends, EndBlock, Block, Continue, Break, Pass, Using, EndUsing
 
 
@@ -155,7 +155,7 @@ def parse(template, parent_tag=''):
 
 # if __name__ == '__main__':
 #     from cProfile import Profile
-#     from sweet.template import Template
+#     from sweet_view.template import Template
 #     n = 30000
 #     s = """<h1><%= user.name %></h1><h2><%= user.age %></h2>"""*n
 #     t = Template(s)
