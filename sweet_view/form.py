@@ -9,6 +9,13 @@ label_value_p = re.compile(r'[-_\s]')
 class Form(object):
     
     def __init__(self, action, model=None, method="GET", id_="", multipart=False, remote=False, charset="UTF8", html=None):
+        """
+        note: model must implement name_for_view method.
+          eg. class MyModel(object):
+                 @classmethod
+                def name_for_view(cls):
+                   return 'my_model'
+        """
         self.action = action
         self.model = model
         self.method = method
